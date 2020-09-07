@@ -1,0 +1,110 @@
+.offers{
+    margin-bottom: 134px;
+    
+}
+
+.offers__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers__title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 53px;
+    }
+
+    .offers__item{
+        width: calc(100% / 3 - 18px);
+        background: #FFFFFF;
+        border-radius: 5px; 
+        overflow: hidden;        
+    }
+
+    .offers__item:last-child{
+        margin-right: 0;
+    }
+
+    .offers__icon{
+        background-color: #fbfbfb;
+        height: 156px;
+        position: relative;
+    }
+
+    .offers__icon::before {
+        content: '';
+        width: 282px;
+        height: 284px;
+        background: #a7a7a7;
+        border-radius: 50%;
+        position: absolute;
+        right: -92px;
+        top: -122px
+    }
+
+    .offers__item--theme--grey .offers__icon::before {
+        background: #a5a5a4;
+    }
+
+    .offers__item--theme--blue .offers__icon::before {
+        background: #556180;
+    }
+
+    .offers__item--theme--gold .offers__icon::before {
+        background: #978455;
+    }
+
+    .offers__icon-img{
+        position: absolute;
+        top: 56%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .offers__content{
+        padding: 34px 29px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .offers__subtitle{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 33px;
+        color: #000000;
+        margin-bottom: 18px;
+    }
+    .offers__desc {
+        margin-right: 19px;  
+    }
+
+    .offers__desc:last-child {
+        margin-right: 0;
+    }
+
+    .offers__desc-block {
+        font-size: 36px;
+        line-height: 52px;
+        color: #000000;
+    }
+
+    .offers__desc-block-cell {
+        font-size: 16px;
+        line-height:21px;
+        color: #666666; 
+    }
+
+    .offers__prices {
+        margin-bottom: 47px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .offers__button {
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
+    }

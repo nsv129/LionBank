@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background: #29282D;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.img {
+    display: block;
+    width: 100%;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button{
+    padding: 0;
+    outline: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.button {
+    background: #DFB56D;
+    box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.35);
+    border-radius: 3px; 
+    text-transform: uppercase;
+    
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 39px;
+    transition: .5s;
+   
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #D3A557;
+}
+
+.button--black {
+    background: black;
+}
+
+.button--grey {
+    background: #8E8E8E;
+}
+
+.button--grey:hover {
+    background: black;
+}
+
+.button--black:hover {
+    background: #dfb56d;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+}
+
+.page-wrapper {
+    background: url("../../img/lion-header.jpg") center top no-repeat, url("../../img/bottom-pic.png") right  bottom 276px no-repeat;
+}
+
+.splash-wrapper {
+    background: url("../../img/splash.jpg") center top no-repeat;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+

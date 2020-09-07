@@ -1,0 +1,26 @@
+.preview {
+    width: 38%;
+}
+
+.main__preview {
+    min-height: 495px;
+}
+
+.preview__title{
+    font-size: 48px;
+    line-height: 121%;
+    color: #FFFFFF;
+    font-weight: bold;  
+}
+
+.preview__info{
+    color: #D3A557;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 21px;
+
+}
+
+.preview__button{
+    margin-top: 46px;
+}

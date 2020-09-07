@@ -1,0 +1,19 @@
+.top-line {
+    min-height: 412px; 
+    background: url("../../img/bottom-pic.png") right 39% top 33% no-repeat;
+    display: flex;
+    flex-direction: column;
+    
+ }
+ 
+ .top-line__container {
+     display: flex;
+     flex-direction: column;
+     flex: 1;
+     justify-content: space-between;
+     padding-bottom: 23px;
+ }
+ 
+ .top-line__header {
+     margin-bottom: 93px;
+ }
